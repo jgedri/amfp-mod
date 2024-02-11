@@ -2,10 +2,10 @@
     <EditorSession>
         <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
         <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="false" GPointLight="true" GridSnap="true" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
-            <Viewport CameraPosition="15.75 1.49999 192.5" CameraTarget="15.75 1.49999 12.5" CameraZoom="2.49507" GridHeight="12.5" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="195.75 1.49999 12.5" CameraTarget="15.75 1.49999 12.5" CameraZoom="2.49507" GridHeight="15.75" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="15.7486 180 12.519" CameraTarget="15.7486 0 12.519" CameraZoom="2.92561" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
-            <Viewport CameraPosition="12.833 6.63116 13.0248" CameraTarget="15.75 0 12.5" CameraZoom="1.92918" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="7.75 1.5 188.5" CameraTarget="7.75 1.5 8.5" CameraZoom="5.5" GridHeight="8.5" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="187.75 1.5 8.5" CameraTarget="7.75 1.5 8.5" CameraZoom="5.5" GridHeight="7.75" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="7.75 181.5 8.5" CameraTarget="7.75 1.5 8.5" CameraZoom="5.5" GridHeight="1.5" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="8.06925 1.64168 7.85966" CameraTarget="7.75 1.5 8.5" CameraZoom="4.22755" GridHeight="1.5" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
         </ViewportConfig>
         <Groups>
             <Group ID="0" Name="None" Visible="true" />
@@ -13,7 +13,7 @@
     </EditorSession>
     <MapData FogActive="false" FogColor="1 1 1 1" FogCulling="true" FogEnd="20" FogFalloffExp="1" FogStart="0" GlobalDecalMaxTris="300" Name="" SkyBoxActive="false" SkyBoxColor="1 1 1 1" SkyBoxTexture="../../../../../">
         <MapContents>
-            <FileIndex_StaticObjects NumOfFiles="7">
+            <FileIndex_StaticObjects NumOfFiles="11">
                 <File Id="0" Path="static_objects/mansionbase/wall/default.dae" />
                 <File Id="1" Path="static_objects/mansionbase/wall/default_secret.dae" />
                 <File Id="2" Path="static_objects/mansionbase/wall/default_stairs_01.DAE" />
@@ -21,24 +21,40 @@
                 <File Id="4" Path="static_objects/mansionbase/wall/default_wood_panneling.DAE" />
                 <File Id="5" Path="static_objects/mansionbase/wall/door_way.dae" />
                 <File Id="6" Path="static_objects/mansionbase/wall/door_frame.dae" />
+                <File Id="7" Path="static_objects/mansionbase/stairs/default.dae" />
+                <File Id="8" Path="static_objects/mansionbase/wall/default02.dae" />
+                <File Id="9" Path="static_objects/mansionbase/wall/default02_secret_door_frame.DAE" />
+                <File Id="10" Path="static_objects/mansionbase/wall/secret_door02_frame.DAE" />
             </FileIndex_StaticObjects>
             <FileIndex_Entities NumOfFiles="1">
                 <File Id="0" Path="entities/door/mansion/mansion.ent" />
             </FileIndex_Entities>
             <FileIndex_Decals NumOfFiles="0" />
             <StaticObjects>
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="5" Name="wall_default_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="5 0 0" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="6" Name="wall_default_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="9 0 0" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="7" Name="wall_default_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="13 0 0" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="9" Name="wall_default_stairs_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="8 0 3.75" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="10" Name="wall_welder_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="16.25 0 0.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="5" Name="wall_default_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="6.25 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="6" Name="wall_default_2" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="10.25 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="7" Name="wall_default_3" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="14.25 0 0" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="2" Group="0" ID="9" Name="wall_default_stairs_2" Rotation="0 1.5708 0" Scale="1 1 1" Tag="" WorldPos="9.25 0 19" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="3" Group="0" ID="10" Name="wall_welder_1" Rotation="0 -0 0" Scale="1 1 1" Tag="" WorldPos="16.5 0 0" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="1" Group="0" ID="11" Name="wall_default_secret_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="16.75 0 1.75" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="12" Name="wall_default_wood_panneling_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="16.75 0 6" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="13" Name="wall_default_4" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="13 0 24" />
-                <StaticObject CastShadows="true" Collides="true" FileIndex="0" Group="0" ID="14" Name="wall_default_5" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="9 0 24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="14" Name="wall_default_5" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="9 0 24" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="15" Name="wall_default_wood_panneling_2" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="16.75 0 10" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="5" Group="0" ID="16" Name="wall_door_way_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="16.75 0 14" />
                 <StaticObject CastShadows="true" Collides="true" FileIndex="6" Group="0" ID="17" Name="wall_door_frame_1" Rotation="3.14159 -1.5708 3.14159" Scale="1 1 1" Tag="" WorldPos="17.25 0 14" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="7" Group="0" ID="19" Name="stairs_default_1" Rotation="3.14159 -2.26498e-006 -3.14159" Scale="1 1 1" Tag="" WorldPos="6 0 18.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="20" Name="wall_default_6" Rotation="-0.0393369 1.5708 -0.0393369" Scale="1 1 1" Tag="" WorldPos="0 0 22" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="21" Name="wall_default_7" Rotation="3.14159 4.44253e-006 3.14159" Scale="1 1 1" Tag="" WorldPos="5 0 24" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="23" Name="wall_default02_1" Rotation="3.14159 1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="0.25 4.25 15.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="24" Name="wall_default02_2" Rotation="3.14159 1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="0.25 4.25 11.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="25" Name="wall_default02_3" Rotation="3.14159 1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="0.25 4.25 7.75" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="9" Group="0" ID="26" Name="wall_default02_secret_door_frame_1" Rotation="3.14159 1.5708 -3.14159" Scale="1 1 1" Tag="" WorldPos="16.25 4.25 6.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="28" Name="wall_default02_4" Rotation="0 -1.5708 2.38419e-007" Scale="1 1 1" Tag="" WorldPos="16.25 4.25 10.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="8" Group="0" ID="29" Name="wall_default02_5" Rotation="0 -1.5708 2.38419e-007" Scale="1 1 1" Tag="" WorldPos="16.25 4.25 14.25" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="10" Group="0" ID="30" Name="wall_secret_door02_frame_1" Rotation="0 -3.8743e-007 0" Scale="1 1 1" Tag="" WorldPos="9.25 4.25 23.5" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="33" Name="wall_default_8" Rotation="-0.0393369 1.5708 -0.0393369" Scale="1 1 1" Tag="" WorldPos="0 0 18" />
+                <StaticObject CastShadows="true" Collides="true" FileIndex="4" Group="0" ID="34" Name="wall_default_9" Rotation="-0.0393369 1.5708 -0.0393369" Scale="1 1 1" Tag="" WorldPos="0 0 14" />
             </StaticObjects>
             <Primitives>
                 <Plane Active="true" AlignToWorldCoords="false" CastShadows="false" Collides="true" Corner1UV="0 24" Corner2UV="0 0" Corner3UV="16.75 0" Corner4UV="16.75 24" EndCorner="16.75 0 24" Group="0" ID="0" Material="C:/GOG Galaxy/Games/Amnesia - A Machine For Pigs/redist/static_objects/mansionbase/floor/polished_floorboards.mat" Name="Plane" Rotation="0 0 0" Scale="1 1 1" StartCorner="0 0 0" Tag="" TextureAngle="0" TileAmount="1 1 1" TileOffset="0 0 0" WorldPos="0 0 0" />
@@ -67,6 +83,17 @@
                         <Var Name="DisableBreakable" Value="false" />
                     </UserVariables>
                 </Entity>
+                <Sound Active="true" Group="0" ID="31" MaxDistance="5" MinDistance="1" Name="Sound_1" Rotation="0 -0 0" Scale="1 1 1" SoundEntityFile="sounds/music/mansion/music_mans_bathroom_2.snt" Tag="" UseDefault="true" Volume="1" WorldPos="12.5 0 21" />
+                <Area Active="true" AreaType="Script" Group="0" ID="35" Mesh="" Name="ScriptArea_1" Rotation="0 -0 0" Scale="2.5 3 3.5" Tag="" WorldPos="7.75 1.5 8.5">
+                    <UserVariables>
+                        <Var Name="PlayerLookAtCallback" Value="" />
+                        <Var Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                        <Var Name="PlayerInteractCallback" Value="" />
+                        <Var Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                        <Var Name="ItemInteraction" Value="true" />
+                        <Var Name="MaxFocusDistance" Value="-1" />
+                    </UserVariables>
+                </Area>
             </Entities>
             <Misc />
             <StaticObjectCombos />
